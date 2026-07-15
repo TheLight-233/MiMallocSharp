@@ -1,0 +1,30 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+TestResults/
+BenchmarkDotNet.Artifacts/
+
+# Visual Studio / JetBrains / Rider
+.vs/
+.idea/
+.agents/
+*.user
+*.suo
+*.DotSettings.user
+
+# NuGet and packaging artifacts
+*.nupkg
+*.snupkg
+packages/
+
+# Generated files and local tooling
+*.log
+*.tmp
+*.cache
+*.pidb
+*.pdb
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
